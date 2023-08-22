@@ -14,6 +14,7 @@ function App() {
     <BrowserRouter>
     <AuthProvider>
       <Switch>
+
         <Route path="/login" component={Login}/>
         <Route path="/signup" component={Signup}/>
         <PrivateRoute path="/profile/:id" component={Profile}/>
