@@ -3,7 +3,7 @@
     "name": "reels",
     "builds": [
         {
-            "src": "./src/App.js",
+            "src": "./src",
             "use": "@vercel/node"
         }
     ],
